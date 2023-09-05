@@ -9,7 +9,7 @@ const Counter: React.FC = () => {
     const [count, setCount] = useState<number>(0);
 
     return (
-        <div className={ styles.container }>
+        <div className={ styles.container } data-testid="counter">
             { count }
             <div className={ styles.actions }>
                 <Button
